@@ -1,0 +1,233 @@
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: transparent;
+  min-width: 480px;
+}
+.topnav {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  background-color: rgba(215, 44, 44, 0.8);
+}
+.topnav a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: rgba(255, 255, 255, 0.75);
+  color: black;
+}
+#home{
+  margin-bottom: 0;
+}
+.top-background-img {
+  background-image: url(background1.jpg
+    );
+  padding-top: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+#title {
+  
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+  font-size: 66px;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+  padding-bottom: 500px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#about {
+  margin: 0;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 5em;
+  padding-right: 5em;
+  background: rgba(215, 44, 44, 0.8);
+  color: white;
+  border: ridge rgba(215, 44, 44, 0.4) 4.5px;
+  border-radius: 8px;
+  z-index: 20;
+}
+
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 24px;
+}
+#header {
+  font-size: 2em;
+}
+
+#sub {
+  font-size: 12px;
+  font-family: 'Playfair Display', serif;
+}
+
+.intro{
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.dev {
+  font-size: 5em;
+}
+.btm-background-image {
+  background-image: url(background.jpg);
+  padding-bottom: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  z-index: 1;
+}
+.proj-header {
+  color: white;
+  margin-top: 400px;
+  padding-bottom: 100px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-weight: 600;
+  font-size: 66px;
+  
+}
+.padding-pad {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.proj-title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #888;
+}
+.proj-img {
+  width: 100%;
+  height: auto;
+}
+.proj-desc {
+  margin: 15px auto 0px;
+  padding-bottom: 10px;
+  border-top: solid 1px grey;
+  border-bottom: solid 1px grey;
+  color: #888;
+}
+#lbox {
+  border: 1px solid rgba(215, 44, 44, 0.6);
+  color: rgba(215, 44, 44, 0.6);
+  margin: 15px auto 0px;
+  width: 40%;
+}
+
+#lbox:hover {
+  background-color: #888;
+}
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-']{
+  display: flex;
+  flex-direction: column;
+}
+
+#lightbox {
+    position: fixed; /* keeps the lightbox window in the current viewport */
+    height: auto;
+    position: fixed;
+    top:  100px; 
+    left: 0; 
+    width:  100%;
+    background: rgba(0,0,0,.85);
+    text-align: center;
+    border: ridge rgba(255,255,255,0.85) 1.5px;
+}
+
+#lightbox img {
+    border: solid rgba(255,255,255,0.85) 1.5px;
+    border-radius: 8px;
+    max-width: 64em;
+    max-height: 32em;
+    float: left;
+    margin: 0 auto;
+}
+
+#close, #back, #forward {
+  cursor: pointer;
+  font-size: 24px;
+  border-color: white;
+  color: white;
+}
+
+.btn div:hover {
+  background-color: white;
+  border-color: red;
+}
+
+div #close {
+  margin-top: 10px;
+  max-width: 125px;
+  float: right;
+  margin-right: 20px;
+  font-size: 20px;
+  
+}
+
+#back, #forward {
+  margin-top:  7em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#back {
+  float: right;
+}
+
+#back:hover, #forward:hover, #close:hover {
+  background-color: white;
+  color:black;
+}
+
+#forward {
+  float: left;
+}
+
+ 
+#text {
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 15px auto;
+  color: white;
+  border: solid rgba(255,255,255,0.85) 1.5px;
+  border-radius: 8px;
+}
+
+#content {
+  padding-top:  2.5%;
+  max-height: 30%;
+}
+
+#image img {
+  width: 100%;
+}
+
+
+
