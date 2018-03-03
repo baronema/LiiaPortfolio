@@ -1,3 +1,1 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/masterofmagnetism/pen/MEaemr.
-
- This portfolio was created for the freeCodeCamp challenge, but I think I like it better than my original portfolio page. Maybe I'll keep it :)
+This portfolio was created for my wonder/talented/beautiful wife. With our youngest child ready to enter public school next year, my wife is determined to make the switch to the public school system. Hopefully, this website will help show prospective future employers just how awesome she is, but in reality all they need to do is meet her!
